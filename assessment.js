@@ -8,6 +8,7 @@ const tweetDivided = document.getElementById('tweet-area');
  * 指定した要素の子供をすべて削除する
  * @pram {HTMLElement} element HTMLの要素
  */
+
 function removeAllChildren(element){
     while(element.firstChild){
         // 子どもの要素があるかぎり削除
